@@ -6,15 +6,9 @@ public class skillrack{
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        
         String S1 = scanner.nextLine();
         String S2 = scanner.nextLine();
-        
-       
         scanner.close();
-        
-       
         System.out.println(traverseStrings(S1, S2));
     }
 
