@@ -21,12 +21,10 @@ public class skillrack{
     public static boolean isVowel(char ch) {
         return "aeiouAEIOU".indexOf(ch) != -1;
     }
-    
+
     public static String traverseStrings(String S1, String S2) {
         StringBuilder result = new StringBuilder();
         int n = S1.length();
-        
-        
         int i = n - 1;
         boolean fromS1 = true;
         
