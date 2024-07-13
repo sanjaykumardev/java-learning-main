@@ -7,6 +7,7 @@ public class skillrack{
     String S1 = sc.nextLine();
     String S2 = sc.nextLine();
 
-    
+    char[] s = S1.toCharArray();
+    char
   }
 }
