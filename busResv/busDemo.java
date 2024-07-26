@@ -9,11 +9,6 @@ public class busDemo {
    ArrayList<Booking> bookings = new ArrayList<Booking>();
 
 
-
-
-
-
-
    ArrayList<Bus> buses = new ArrayList<Bus>();
    buses.add(new Bus(1,true,45));
    buses.add(new Bus(2,true,65));
@@ -31,7 +26,14 @@ public class busDemo {
     System.out.println("Enter 1 to book and 2 to exit");
     useroption = sc.nextInt();
     if(useroption == 1){
-      System.out.println("Booking.....");
+     Booking booking = new Booking();
+     if(Booking.isAvailable(bookings , buses)){
+       bookings.add(booking);
+      System.out.println("your booking is confirmed");
+     }
+     else{
+      System.out.println(" booking will not done seat full");
+     }
     }else{
       System.out.println("Exit");
     }
