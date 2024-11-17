@@ -1,28 +1,28 @@
 //? diamond pattern
 public class pattern1 {
-  public static void main(String[] args) {
-    int n = 5;
-    for(int i=0; i<=n; i++){
-      for(int j=0; j<n-i; j++){
-        System.out.print(" ");
-      }
-      for(int k =0; k<=i; k++){
-        System.out.print("* ");
-      }
-      System.out.println();
-    }
+  // public static void main(String[] args) {
+    // int n = 5;
+//     for(int i=0; i<=n; i++){
+//       for(int j=0; j<n-i; j++){
+//         System.out.print(" ");
+//       }
+//       for(int k =0; k<=i; k++){
+//         System.out.print("* ");
+//       }
+//       System.out.println();
+//     }
 
-    for (int i = n - 1; i >= 0; i--) {
-      for (int j = 0; j < n - i; j++) {
-          System.out.print(" ");
-      }
-      for (int k = 0; k <= i; k++) {
-          System.out.print("* ");
-      }
-      System.out.println();
-  }
-  }
-}
+//     for (int i = n - 1; i >= 0; i--) {
+//       for (int j = 0; j < n - i; j++) {
+//           System.out.print(" ");
+//       }
+//       for (int k = 0; k <= i; k++) {
+//           System.out.print("* ");
+//       }
+//       System.out.println();
+//   }
+//   }
+// }
 
 
 // ? rohmbus pattern
@@ -66,21 +66,21 @@ public class pattern1 {
 
 
 
-//? left pyramid.
+// ? left pyramid.
 // public class  pattern1{
-//   public static void main(String [] args){
-//      int n = 5;
+  public static void main(String [] args){
+     int n = 5;
 
         
-//         for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n; i++) {
            
-//             for (int j = 1; j <= i; j++) {
-//                 System.out.print("* ");
-//             }
-//             System.out.println(); // Move to the next line after each row
-//           }
-//  }
-// }
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println(); // Move to the next line after each row
+          }
+ }
+}
 
 
 
@@ -121,22 +121,22 @@ public class pattern1 {
 
 
 // ?floyd traingle.
-public class pattern1 {
-  public static void main( String [] args){
-    int N= 7;  
-     int sum = 1 ; 
-    // ! outer loop to print
-    for(int i= 1; i<=N; i++){
+// public class pattern1 {
+//   public static void main( String [] args){
+//     int N= 7;  
+//      int sum = 1 ; 
+//     // ! outer loop to print
+//     for(int i= 1; i<=N; i++){
 
-    //   ! inside loop to print
-        for(int j= 1; j<= i; j++){
-          System.out.print(sum  + " ");
-          sum++;  
-        }
-          System.out.println( );
-    }  
-  }
-}
+//     //   ! inside loop to print
+//         for(int j= 1; j<= i; j++){
+//           System.out.print(sum  + " ");
+//           sum++;  
+//         }
+//           System.out.println( );
+//     }  
+//   }
+// }
 
 
 //? incorrect keyboard. 
